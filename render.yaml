@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: setu-kavachx
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: SETU_SECRET_KEY
+        generateValue: true
+      - key: SETU_EXTRACTOR
+        value: auto
+      - key: ANTHROPIC_API_KEY
+        sync: false

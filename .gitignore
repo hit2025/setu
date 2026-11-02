@@ -1,0 +1,16 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+backend/data/
+frontend/dist/
+.env
+.pytest_cache/
+*.tsbuildinfo
+.venv-*/
+
+# Private, local only
+CLAUDE.md
+chat-history.json
+.claude/
+docs/

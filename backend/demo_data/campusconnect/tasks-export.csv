@@ -1,0 +1,10 @@
+id,title,owner,status,due,depends_on
+T-101,Deploy release v1.2,Meera Iyer,todo,2026-11-08,T-102;T-104;hosting platform
+T-102,Run migration 014,Rohan Das,in_progress,2026-11-04,
+T-103,Rotate Razorpay API keys,,todo,2026-11-06,
+T-104,Merge PR #45 Render config,Rohan Das,in_review,2026-11-05,
+T-105,Load test QR check-in service,,todo,2026-11-07,
+T-106,Finalize registration form fields,Meera Iyer,done,2026-10-30,
+T-107,Email sponsor schedule,Ananya Sen,todo,2026-11-10,
+T-108,Publish event schedule page,Ananya Sen,todo,2026-11-09,T-106
+T-109,Write deployment runbook,Rohan Das,todo,2026-11-05,
